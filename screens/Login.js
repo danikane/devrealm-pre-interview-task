@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 
 import { myContainers, myInputs, myText } from '../styles';
 
-// Context API here
+// Hooks API example 
 const Login = props => {
   const [pin, setPin] = useState(null);
   const [pinVisiblity, setPinVisibility] = useState(true);
